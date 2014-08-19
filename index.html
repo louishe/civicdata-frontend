@@ -53,10 +53,10 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script>
     $(document).ready(function() {
-        // Hide the fetch indicator
+        // Hide the fetch indicator.
         $("#loading-button").hide();
 
-        // Hit the CivicData.com API
+        // Hit the CivicData.com API.
         $.ajax({
           url: baseUrl + 'organization_show?id=' + getOrganizationID(),
           beforeSend: beforeSend,
